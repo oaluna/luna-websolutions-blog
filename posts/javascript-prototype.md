@@ -33,9 +33,4 @@ Outside of React, you can use <kdb>new</kdb> in front of your function to make i
 
 TL:DR; Classes are constructors with a built-in prototype, and are written in a much simpler way now.
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%2820%2C20%2C57%2C1%29&t=synthwave-84&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=class%2520Hamburger%2520%257B%250A%2520%2520constructor%28type%29%2520%257B%250A%2520%2520%2520%2520this.type%2520%253D%2520type%253B%250A%2520%2520%257D%250A%2520%2520order%28build%29%2520%257B%250A%2520%2520%2520%2520console.log%28%27Give%2520me%2520a%2520%2524%257Bthis.type%257D%252C%2520%2524%257Bbuild%257D%2560%29%250A%2520%2520%257D%250A%257D%250Alet%2520doubleMeat%2520%253D%2520new%2520Hamburger%28%27Double%2520Meat%27%29%253B%250Alet%2520fourByFour%2520%253D%2520new%2520Hamburger%28%27Four%2520by%2520Four%27%29%253B%250A%2520%2520"
-  style="margin: 15px; width: 100%; height:450px; border:0; transform: scale(1); overflow:hidden; scroll-behavior: none;">
-</iframe>
-
 I haven't even scratched the surface of OOP. Stay tuned for part II!

@@ -10,6 +10,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+          <meta name="monetization" content="$ilp.uphold.com/3wAZ7rbGpF9N">
+
       </Head>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
